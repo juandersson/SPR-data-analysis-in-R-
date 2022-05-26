@@ -1,6 +1,6 @@
 # SPR-data-analysis-in-R-
 # Description 
-This repository provides curve fitting routines for SPR data analysis in R. It was developed and used for my bachelor’s thesis. The repository contains a set of R scripts as well as simulated data. 
+This repository provides curve fitting routines for SPR data analysis in R. It was developed and used for my Bachelor’s thesis. The repository contains a set of R scripts as well as simulated data. 
 
 # Usage 
 Note: The R scripts contain code that is set up to model the simulated data (available in the “Simulated data” folder) and should be specified to the data being analysed.  
