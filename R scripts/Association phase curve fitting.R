@@ -43,8 +43,6 @@ summary(fit)
 # specified according to your data.
 
 #similarly to the code using a monophasic model, run the following code with specifications according to your data: 
-my_data <- read.csv(file.choose(), 
-                    stringsAsFactor = FALSE)
 RU <- biassim$RU
 t <- biassim$Time
 plot(t, RU, yaxs = "i", xaxs = "i", xlim = c(0,210), ylim = c(0,340), xlab = "Time(s)", ylab = "RU")
