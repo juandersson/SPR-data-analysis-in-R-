@@ -66,7 +66,7 @@ new.data <- data.frame(t = seq(min(t),max(t),len = 1200))
 lines(new.data$t,predict(fit,newdata = new.data), col = "red", lwd =  "2")
 summary(fit)
 
-#If the fit gives a "y0" value which is too high (as is the case for the simulated data), the y0 value can be set to 0 
+#If the fit gives a "y0" value which is too high, the y0 value can be set to 0 
 fit <- nls(RU ~ 0 + A1*exp(-kd1*t) + A2*exp(-kd2*t), start = list(A1 = 200, kd1 = 0.01, A2 = 130, kd2 = 0.001))
 
 #Visualise the new fit and get the estimated values of the parameters. 
