@@ -29,7 +29,7 @@ fit <- nls(RU ~ y0 + A*exp(-kd*t), start = list(y0 = 0, A = 40, kd = 0.01))
 
 #Create a data frame of the values of "t" for which to get predictions of the fit.   
 new.data <- data.frame(t = seq(min(t),max(t),len = 500))
-      #Adjust "len =" according to the association time of the data being analysed.   
+      #Adjust "len" according to the association time of the data being analysed.   
 
 
 #Visualise the modeled fit in the plot.
