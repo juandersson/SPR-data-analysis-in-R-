@@ -28,7 +28,7 @@ fit <- nls(RU ~ (Beq*(1-exp(-t*kobs))), start=list (Beq = 160, kobs = 0.1))
 
 #Create a data frame of the values of "t" for which to obtain predictions of the fit.   
 new.data <- data.frame(t = seq(min(t),max(t),len = 200)) 
-      #Adjust "len =" according to the association time of the data being analysed.                                
+      #Adjust "len" according to the association time of the data being analysed.                                
                               
 #Visualise the modeled fit in the plot.
 lines(new.data$t,predict(fit,newdata = new.data), col = "red", lwd = "2")
