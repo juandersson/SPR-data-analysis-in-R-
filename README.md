@@ -10,3 +10,8 @@ Note: The R scripts contain code that is set up to model simulated data (availab
   •	The R script “Dissociation phase curve fitting” is used on SPR dissociation phase data to obtain the dissociation rate constants. 
   
   •	Beq and kobs values derived for a range of analyte concentrations are used to derive the KD (dissociation constant), using the R scripts “Equilibrium analysis” and “kobs against con”.   
+
+# References 
+Hoare SRJ. Analyzing Kinetic Binding Data. In: Markossian S, Grossman A, Brimacombe K, et al., editors. [Internet]. Bethesda, MD: Eli Lilly & Company and the National Center for Advancing Translational Sciences; 2004-. [cited 2022 June 7]. Available from: https://www.ncbi.nlm.nih.gov/books/NBK53196/ 
+
+Schasfoort RBM. Introduction to Surface Plasmon Resonance. In: Schasfoort RBM, editor. Handbook of Surface Plasmon Resonance. 2. ed. Enschede: The Royal Society of Chemistry; 2017. p. 1-26. 
