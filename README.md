@@ -9,4 +9,4 @@ Note: The R scripts contain code that is set up to model simulated data (availab
   
   •	The R script “Dissociation phase curve fitting” is used on SPR dissociation phase data to obtain the dissociation rate constants. 
   
-  •	Beq and kobs values derived for a range of analyte concentrations are used to derive the KD, using the R scripts “Equilibrium analysis” and “kobs against con”.   
+  •	Beq and kobs values derived for a range of analyte concentrations are used to derive the KD (dissociation constant), using the R scripts “Equilibrium analysis” and “kobs against con”.   
